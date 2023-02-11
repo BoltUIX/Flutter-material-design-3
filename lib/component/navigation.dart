@@ -18,7 +18,7 @@ const List<Widget> exampleBarDestinations = [
   NavigationDestination(
     tooltip: "",
     icon: Icon(Icons.text_snippet_outlined),
-    label: 'About',
+    label: 'Elevation',
     selectedIcon: Icon(Icons.text_snippet),
   ),
 ];

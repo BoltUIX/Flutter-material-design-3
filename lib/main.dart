@@ -56,6 +56,7 @@ class _Material3DemoState extends State<Material3Demo> {
     return ThemeData(
         colorSchemeSeed: colorOptions[colorSelected],
         useMaterial3: useMaterial3,
+        fontFamily: 'Jost',
         brightness: useLightMode ? Brightness.light : Brightness.dark);
   }
 
@@ -184,3 +185,6 @@ class _Material3DemoState extends State<Material3Demo> {
     );
   }
 }
+
+
+
